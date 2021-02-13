@@ -10,3 +10,4 @@ for p in ports:
     if r==0:
         service=socket.getservbyport(p)
         print('the port {}:{} is open'.format(p,service))
+#coded by chou@ibcher+
